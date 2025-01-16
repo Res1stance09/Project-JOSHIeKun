@@ -54,9 +54,8 @@ if __name__ == "__main__":
     for quote in steve_job_quotes:
         print(generator.display_quote(quote))
     
-    
-    
-    generator.add_qoutes("Weakness of attitude becomes weakness of character.","Albert Eistein")
+
+    generator.add_qoutes("Weakness of attitude becomes weakness of character.","Albert Einstein")    
     albert_einstein_quote = generator.get_quote_by_author("Albert Einstein")
     print("\nAll Albert Eistein quotes:")
     
